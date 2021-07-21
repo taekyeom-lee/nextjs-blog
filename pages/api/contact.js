@@ -21,7 +21,7 @@ function handler(req, res) {
       message,
     };
 
-    consold.log(newMessage);
+    console.log(newMessage);
 
     res
       .status(201)
